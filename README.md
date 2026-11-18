@@ -25,9 +25,11 @@ Drain resistance is obtained from the slope of the drain characteristic:
 rd = dVDS / dID    (with VGS kept constant)
 4. CIRCUIT DIAGRAM
 A. Transfer Characteristics – Connect the MOSFET circuit in LTspice. VGS is varied while maintaining a constant VDS, and the corresponding ID is observed.
-[Insert LTspice Transfer Characteristics Circuit Diagram Here]
+<img width="1911" height="1002" alt="ED Practical II" src="https://github.com/user-attachments/assets/724b2a34-6181-482f-884a-7a45522a951d" />
+
 B. Drain Characteristics – Connect the MOSFET circuit in LTspice. VDS is varied for different constant values of VGS, and the corresponding ID is observed.
-[Insert LTspice Drain Characteristics Circuit Diagram Here]
+<img width="1911" height="1002" alt="ED Practical II" src="https://github.com/user-attachments/assets/db918346-8a11-416e-ac5e-d24f884f7bda" />
+
 5. PROCEDURE
 A. Transfer Characteristics
 4.	Connect the MOSFET circuit as per the circuit diagram in LTspice.
