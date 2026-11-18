@@ -24,11 +24,14 @@ Saturation Region: The MOSFET operates in saturation when VGS > VT and VDS ≥ (
 Drain resistance is obtained from the slope of the drain characteristic:
 rd = dVDS / dID    (with VGS kept constant)
 4. CIRCUIT DIAGRAM
+5. <img width="1911" height="1002" alt="ED Practical II" src="https://github.com/user-attachments/assets/580c9932-df46-4a7a-af42-2cfc3055b546" />
+
+   
 A. Transfer Characteristics – Connect the MOSFET circuit in LTspice. VGS is varied while maintaining a constant VDS, and the corresponding ID is observed.
 [Insert LTspice Transfer Characteristics Circuit Diagram Here]
 B. Drain Characteristics – Connect the MOSFET circuit in LTspice. VDS is varied for different constant values of VGS, and the corresponding ID is observed.
 [Insert LTspice Drain Characteristics Circuit Diagram Here]
-5. PROCEDURE
+6. PROCEDURE
 A. Transfer Characteristics
 4.	Connect the MOSFET circuit as per the circuit diagram in LTspice.
 5.	Set the required VGS and VDS values.
@@ -48,44 +51,13 @@ B. Drain Characteristics
 18.	Determine the drain resistance rd from the slope of the drain characteristic.
 6. OBSERVATION
 A. Transfer Characteristics
-S. No.	VGS (V)	VDS (V)	ID (mA)
-1			
-2			
-3			
-4			
-5			
-6			
-7			
-8			
-Graph: Plot ID vs. VGS for constant VDS.
-B. Drain Characteristics
-S. No.	VDS (V)	VGS (V)	ID (mA)
-1			
-2			
-3			
-4			
-5			
-6			
-7			
-8			
-Repeat the observation for different constant values of VGS.
 Simulation Results
 
  ID vs. VDS for different values of VGS.
+<img width="1911" height="1002" alt="ED Practical II" src="https://github.com/user-attachments/assets/9bd2780c-9eea-47de-a85d-dfe0de367ca3" />
 
 
 
-8. CALCULATIONS
-Transconductance:
-gm = ΔID / ΔVGS
-Therefore,  gm = __________________ S
-Drain Resistance:
-rd = ΔVDS / ΔID
-Therefore,  rd = __________________ Ω
-9. RESULT
-Thus, the drain and transfer characteristics of the MOSFET were simulated using LTspice. The values of transconductance (gm) and drain resistance (rd) were determined from the respective characteristics.
-gm = __________________ S
-rd = __________________ Ω
 10. PRECAUTIONS
 •	Check the MOSFET terminal connections before starting the simulation.
 •	Use appropriate voltage sweep limits.
